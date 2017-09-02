@@ -3,8 +3,8 @@ CREATE TABLE projects(
   title TEXT,
   category TEXT,
   funding_goal REAL,
-  startdate datetime,
-  enddate datetime
+  start_date datetime,
+  end_date datetime
 );
 CREATE TABLE users(
 
