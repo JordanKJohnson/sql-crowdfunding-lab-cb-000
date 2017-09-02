@@ -6,8 +6,8 @@ CREATE TABLE projects(
   enddate datetime
 );
 CREATE TABLE users(
-  
+
 );
 CREATE TABLE pledges(
-  
+
 );
