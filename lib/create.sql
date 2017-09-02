@@ -8,9 +8,14 @@ CREATE TABLE projects(
 );
 
 CREATE TABLE users(
-
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  age INTEGER
 );
 
 CREATE TABLE pledges(
-
+  id INTEGER PRIMARY KEY,
+  amount REAL,
+  user_id TEXT,
+  project_id INTEGER FOREIGN KEY
 );
