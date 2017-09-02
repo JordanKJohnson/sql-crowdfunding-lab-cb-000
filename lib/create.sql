@@ -17,5 +17,5 @@ CREATE TABLE pledges(
   id INTEGER PRIMARY KEY,
   amount REAL,
   user_id TEXT,
-  project_id INTEGER FOREIGN KEY
+  project_id INTEGER
 );
