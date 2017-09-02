@@ -29,3 +29,5 @@ INSERT INTO projects (title,category,funding_goal,start_date,end_date) VALUES ('
 INSERT INTO projects (title,category,funding_goal,start_date,end_date) VALUES ('Fundraising project','FR','100.00','9-1-2017','9-2-2017');
 INSERT INTO projects (title,category,funding_goal,start_date,end_date) VALUES ('Fundraising project','FR','100.00','9-1-2017','9-2-2017');
 INSERT INTO projects (title,category,funding_goal,start_date,end_date) VALUES ('Fundraising project','FR','100.00','9-1-2017','9-2-2017');
+
+INSERT INTO pledges (amount,user_id,project_id) VALUES (100.00,1,1);
