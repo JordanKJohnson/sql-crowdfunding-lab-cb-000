@@ -6,9 +6,11 @@ CREATE TABLE projects(
   start_date datetime,
   end_date datetime
 );
+
 CREATE TABLE users(
 
 );
+
 CREATE TABLE pledges(
 
 );
