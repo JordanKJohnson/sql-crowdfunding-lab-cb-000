@@ -14,7 +14,7 @@ CREATE TABLE users(
 );
 
 CREATE TABLE pledges(
-  id INTEGER AUTO_INCREMENT PRIMARY KEY,
+  id INTEGER PRIMARY KEY,
   amount REAL,
   user_id TEXT,
   project_id INTEGER
